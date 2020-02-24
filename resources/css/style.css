@@ -330,7 +330,7 @@ figcaption{
 }
 
 .information .small-icon{
-    color: #4e81b1;
+    color: #6591bb;
     font-size: 110%;
     transition: all 0.3s;
 }
@@ -388,7 +388,6 @@ input, textarea{
     border: solid 1px white;
     margin-left: 30px;
     border-radius: 5px;
-    /* color: white; */
 }
 
 textarea{
