@@ -1,22 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self Taught Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../vendors/grid.css">
     <script src="https://kit.fontawesome.com/6c34142ce3.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <a href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
-        <ul>
-            <li><a href="#"></a>How clients think</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Product</li>
-            <li><a href="#"></a>Contact</li>
+        <ul class="main-nav">
+            <li><a href="#">How clients think</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="heading-main-box">
+                <h1>
+                    We will study
+                    <br>English together.
+                    <br>So join with us.
+
+                </h1>
+                <a href="#" class="btn">Tell me more</a>
+                <a href="#" class="btn">Join us</a>
+            </div>
+        </div>
     </header>
+    <section class="about-section">
+        <div class="row">
+            <h2>About us</h2>
+            <p class="p-long">
+                We are people that are studying English by ourselves, we believe that you don’t need to pay so much
+                money
+                for being good at English, we’re here to help you
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 about-picture">
+                <img src="./images/activities1.jpeg" alt="activities1">
+                <p class="picture-title">
+                    Team working
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./images/activities2.jpeg" alt="activities2">
+                <p class="picture-title">
+                    Funny class
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./images/activities3.jpeg" alt="activities3">
+                <p class="picture-title">
+                    Be confident
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./images/activities4.jpeg" alt="activities4">
+                <p class="picture-title">
+                    All our friends
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="product-box">
+                    <h3>Pronunciation class</h3>
+                    <p class="product-price">19$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Native voices</li>
+                        <li><i class="fas fa-check small-icon"></i>Master IPA</li>
+                    </ul>
+                    <a href="#" class="btn">Join us</a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="product-box">
+                    <h3>Speaking class</h3>
+                    <p class="product-price">25$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Native speaking</li>
+                        <li><i class="fas fa-check small-icon"></i>Speaking naturally</li>
+                    </ul>
+                    <a href="#" class="btn">Join us</a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="product-box">
+                    <h3>Listening class</h3>
+                    <p class="product-price">23$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Native speech</li>
+                        <li><i class="fas fa-check small-icon"></i>Hearing English clearly</li>
+                    </ul>
+                    <a href="#" class="btn">Join us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <h2>Testimonials</h2>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    The course is very helpful, I can speak English fluently and I think The SF English became my second
+                    family, I love everyone very much. Thank you.
+                    <cite>
+                        <img src="./images/person5.jpeg" alt="person1">Rhaegar
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    I believe that who came to This English centre would love this place as I did, when the course
+                    finished, I feel sad because studying in that place I always felt funny.
+                    <cite>
+                        <img src="./images/person2.jpeg" alt="person2">Viserys
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Trust me, you can master English just by joining this class, I did, so I believe that you can too.
+                    Hope that one day, you can come and join in this class.
+                    <cite>
+                        <img src="./images/person1.jpeg" alt="person3">Daenerys
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="sponsors-section">
+        <h2>Sponsors</h2>
+        <div class="row">
+            <ul class="sponsors-showcase clearfix">
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="./images/barcelona_logo.png" alt="Barca">
+                        <figcaption>
+                            Barcelona
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="./images/real_logo.png" alt="Real">
+                        <figcaption>
+                            Real Madrid
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="./images/bayern_logo.png" alt="Bayern">
+                        <figcaption>
+                            Bayern Munich
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <ul class="sponsors-showcase clearfix">
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="./images/mctcity_logo.png" alt="Man City">
+                        <figcaption>
+                            Manchester City
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="./images/mctunited_logo.png" alt="MU">
+                        <figcaption>
+                            Manchester United
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="./images/tottenham_logo.png" alt="Spurs">
+                        <figcaption>
+                            Tottenham Hotspur
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <ul class="information">
+                    <li><i class="fas fa-map-marker-alt small-icon"></i>Address: Gia Ray, Xuan Loc, Dong Nai</li>
+                    <li><i class="fas fa-envelope small-icon"></i>Email: hokhacminhtri@gmail.com</li>
+                    <li><i class="fas fa-phone small-icon"></i></i>Phone number: (+084 )929-275-373</li>
+                </ul>
+                <ul class="social-icons">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-google-plus-square"></i></li>
+                </ul>
+            </div>
+            <div class="col span-2-of-3">
+                <form>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" placeholder="Your name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" placeholder="Your email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Massage</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" class="btn" value="Send it">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Copyright &copy; 2018 by SELFTAUGHT TEAM
+        </p>
+    </footer>
 </body>
+
 </html>
