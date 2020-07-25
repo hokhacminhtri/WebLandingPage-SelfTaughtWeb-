@@ -12,6 +12,10 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* ==============REUSABLE COMPONENT============== */
 
 .btn{
@@ -300,8 +304,7 @@ cite img{
     transition: all 0.3s;
 }
 
-.sponsors-section li .logo-sponsor:hover,
-.sponsors-section li .logo-sponsor:active{
+.sponsors-section li .logo-sponsor:hover{
     transform: scale(1.2);
 }
 

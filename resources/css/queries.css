@@ -19,6 +19,7 @@
 @media only screen and (max-width: 1023px){
 
     /* ---------------HEADER-------------- */
+
     .logo{
         width: 350px;
         margin-left: 40px;
@@ -38,6 +39,7 @@
     }
 
 /* -----------PRODUCT SECTION--------- */
+
     .product-section .btn{
         width: 50%;
         margin-left: 10%;
@@ -54,6 +56,10 @@
     .social-icons li{
         margin-left: 10px;
     }
+
+    .information i{
+        display: block;
+    }
 }
 
 /* =====================481px - 767px===================== */
@@ -61,6 +67,7 @@
 @media only screen and (max-width: 767px){
 
 /* ---------------HEADER-------------- */
+
     .col{
         width: 100%;
     }
@@ -71,7 +78,7 @@
 
     .logo{
         width: 450px;
-        margin-left: 13px;
+        margin-left: 13%;
     }
 
     h1{
@@ -89,6 +96,7 @@
     }
 
     /* ------------ABOUT SECTION----------- */
+
     .about-section .row .p-long{
         font-size: 25px;
     }
@@ -102,6 +110,7 @@
     }
 
     /* -----------PRODUCT SECTION---------- */
+
     .product-section .btn{
         width: 40%;
         margin-left: 20%;
@@ -112,6 +121,7 @@
     }
 
     /* --------TESTIMONIALS SECTION-------- */
+
     .testimonials-section .row .col{
         margin-bottom: 50px;
     }
@@ -127,6 +137,7 @@
     }
 
     /* ------------CONTACT FORM------------ */
+
     form{
         width: 85%;
         margin-left: 1%;
@@ -138,7 +149,9 @@
 
     .information{
         margin-left: 20%;
-        font-size: 16px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 5%;
     }
 
     .social-icons{
@@ -158,6 +171,7 @@
     html{
         font-size: 12px;
     }
+
     /* ---------------HEADER-------------- */
 
     h1{
@@ -166,12 +180,13 @@
 
     .logo{
         width: 300px;
-        margin-top: 20%;
-        margin-left: 12%;
+        margin-top: 5%;
+        margin-left: 15%;
     }
 
     .heading-main-box{
         transform: translate(-10%, -60%);
+        top: 60%;
     }
 
     .heading-main-box .btn{
