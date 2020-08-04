@@ -28,6 +28,7 @@ body{
     display: inline-block;
     width: 150px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .btn:hover{
@@ -120,6 +121,7 @@ header{
     float: left;
     margin-left: 70px;
     margin-top: -50px;
+    margin-bottom: -100px;
 }
 
 .main-nav{
@@ -152,7 +154,46 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-60%, -70%);
-    width: 1140px;
+    max-width: 1140px;
+}
+
+
+
+/* ====================sticky==================== */
+
+.sticky{
+    background-color: rgb(2,33,64,0.8);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 10px;
+}
+
+.sticky .logo{
+    width: 350px;
+    margin-top: -55px;
+    margin-bottom: -90px;
+}
+
+.sticky .main-nav{
+    margin-top: 50px;
+}
+
+/* --- MOBILE NAVIGATION ICON --- */
+
+.mobile-nav-icon{
+    font-size: 300%;
+    color: #95b6d4;
+    position: absolute;
+    top: 85px;
+    right: 100px;
+    display: none;
+}
+
+.sticky .mobile-nav-icon{
+    top: 40px;
 }
 
 /* =================ABOUT SECTION================ */
@@ -193,41 +234,41 @@ header{
 
 /* ================PRODUCT SECTION=============== */
 
-.product-section{
+.products-section{
     background-color: #f0ecec;
 }
 
-.product-section h2{
+.products-section h2{
     margin-bottom: 40px;
 }
 
-.product-box{
+.products-box{
     background-color: #eeefff;
     width: 92%;
     height: 350px;
     box-shadow: 3px 5px 10px #e0e0e0;
 }
 
-.product-price{
+.products-price{
     color: #265077;
     font-size: 230%;
     font-weight: 200;
     text-align: center;
 }
 
-.product-price span{
+.products-price span{
     font-size: 80%;
     font-weight: 100;
 }
 
-.product-box ul li{
+.products-box ul li{
     margin-left: 10%;
     list-style: none;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.product-box .btn{
+.products-box .btn{
     margin-left: 20%;
 }
 

@@ -40,12 +40,12 @@
 
 /* -----------PRODUCT SECTION--------- */
 
-    .product-section .btn{
+    .products-section .btn{
         width: 50%;
         margin-left: 10%;
     }
 
-    .product-box{
+    .products-box{
         width: 95%;
     }
 
@@ -62,7 +62,7 @@
     }
 }
 
-/* =====================481px - 767px===================== */
+/* =====================671px - 767px===================== */
 
 @media only screen and (max-width: 767px){
 
@@ -73,7 +73,11 @@
     }
 
     .main-nav{
-        visibility: hidden;
+        display: none;
+    }
+
+    .mobile-nav-icon{
+        display: block;
     }
 
     .logo{
@@ -88,11 +92,12 @@
     }
 
     .heading-main-box{
-        transform: translate(-19%, -50%);
+        left: 30%;
+
     }
 
     .heading-main-box .btn{
-        width: 10%;
+        width: 50%;
     }
 
     /* ------------ABOUT SECTION----------- */
@@ -165,6 +170,15 @@
 
 }
 
+/* ======================481px - 670px====================== */
+
+@media only screen and (max-width: 670px){
+    .mobile-nav-icon{
+        top: 80px;
+        right: 20px;
+    }
+}
+
 /* ======================0px - 480px====================== */
 
 @media only screen and (max-width: 480px){
@@ -181,18 +195,18 @@
     .logo{
         width: 300px;
         margin-top: 5%;
-        margin-left: 15%;
+        margin-left: 8%;
     }
 
     .heading-main-box{
         transform: translate(-10%, -60%);
-        top: 60%;
+        top: 70%;
     }
 
     .heading-main-box .btn{
         display: block;
         margin-bottom: 20px;
-        margin-left: 2%;
+        margin-left: 5%;
     }
     
     /* ------------CONTACT FORM------------ */
@@ -205,4 +219,14 @@
         font-size: 35px;
     }
 
+    .mobile-nav-icon{
+        top: 105px;
+        right: 10px;
+    }
+    
+    .sticky .logo{
+        width: 300px;
+        margin-top: -45px;
+        margin-left: 15px;
+    }
 }
